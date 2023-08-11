@@ -25,89 +25,72 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link menu active__hov" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Me</a>
+                            <a class="nav-link menu active__hov" href="#">Contact Me</a>
                         </li>
                     </ul>
-                    <div class="d-flex gap-3">
-                        <a class="dark_btn" href="">Sign Up</a>
-                        <a class="light_btn" href="">Sign In</a>
+                    <div class="d-flex align-items-center gap-3">
+                        <a href="#"><img src="./assets/images/chat_icon.png" alt="Chats"></a>
+                        <a href="#"><img src="./assets/images/notification_icon.png" alt="Notifications"></a>
+                        <div class="profileShow d-flex align-items-center gap-1">
+                            <a href="#"><img src="./assets/images/profile_round.png" alt="Profile Image"></a>
+                            <img src="./assets/images/drop_down.png" alt="">
+                        </div>
                     </div>
                 </div>
-
             </div>
         </nav>
     </header>
 
     <main>
-        <section>
-            <div class="banner mb_all">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-lg-6">
-                            <span>Let’s make the best Investment!</span>
-                            <h1>Christianity is My Mental Disorder: A Client Guide to Recovery.</h1>
-                            <p>"Obtain a Complimentary Copy Using a Free Promo Code: Freedom”</p>
-                            <a href="#">Read Now <img src="./assets/images/right_arrow.png" alt=""></a>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <div class="text-end">
-                                <img class="img-fluid" src="./assets/images/banner.png" alt="Hero Image">
-                            </div>
-                        </div>
-                    </div>
-
+        <div class="container">
+            <div class="forPosition">
+                <div class="d-flex justify-content-start align-items-center mb-4">
+                    <a href="index.html">Home</a>
+                    <img src="./assets/images/next_arrow.png" alt="Arrow">
+                    <a href="" class="activePage">Contact</a>
                 </div>
             </div>
-        </section>
 
-        <section class="achive mb_all">
-            <div class="container">
-                <div class="mb_20">
-                    <h2 class="mb-3">What you’ll <span class="txt_curve">achieve</span> by</h2>
-                    <h2>this Book?</h2>
-                </div>
-                <p class="mb_30 sub_header">
+            <div class="contactAll">
+                <h2 class="mb-3">I would love to <span class="txt_curve">hear</span> your</h2>
+                <h2 class="mb-3"> comments and suggestions!</h2>
+                <p class="sub_header">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 </p>
-                <div>
-                    <div class="row p-0 ">
-                        <div class="col-12 col-lg-4">
-                            <div class="achiveBox">
-                                <img src="./assets/images/mental_stability.png" alt="Mental Stability">
-                                <span>Mental Stability</span>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text.
-                                </p>
+                <div class="contactForm">
+                    <form action="">
+                        <div class="d-flex gap-4 mb-3">
+                            <div class="w-100">
+                                <label for="">Full Name</label>
+                                <input class="w-100" type="text" placeholder="John Duo">
+                            </div>
+                            <div class="w-100">
+                                <label for="">Email Address</label>
+                                <input class="w-100" type="email" placeholder="johnduo@gmail.com">
                             </div>
                         </div>
-                        <div class="col-12 col-lg-4">
-                            <div class="achiveBox">
-                                <img src="./assets/images/experience.png" alt="Experience">
-                                <span>Experience</span>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text.
-                                </p>
+                        <div class="d-flex gap-4 mb-3">
+                            <div class="w-100">
+                                <label for="">Country</label>
+                                <input class="w-100" type="text" placeholder="United Kingdom">
+                            </div>
+                            <div class="w-100">
+                                <label for="">Phone Number</label>
+                                <input class="w-100" type="text" placeholder="+1 123 456 789">
                             </div>
                         </div>
-                        <div class="col-12 col-lg-4">
-                            <div class="achiveBox">
-                                <img src="./assets/images/motivation.png" alt="Motivation">
-                                <span>Motivation</span>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text.
-                                </p>
-                            </div>
+                        <div class="mb-3">
+                            <label for="" class="mb-1">Your message <span>*</span></label>
+                           <textarea class="w-100" cols="30" rows="6"></textarea>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
-        </section>
+
+        </div>
     </main>
 
     <footer>

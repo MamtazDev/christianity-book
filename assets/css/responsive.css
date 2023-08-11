@@ -1,30 +1,71 @@
-@media only screen and (min-width:1440px) {
+@media only screen and (min-width:1440px) {}
 
 
-}
+@media only screen and (max-width:1024px) {}
+
+@media only screen and (max-width:992px) {}
 
 
-@media only screen and (max-width:1024px) {
-   
-}
-
-@media only screen and (max-width:992px) {
-   
-}
 
 @media only screen and (max-width:768px) {
+    .sub_header {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 20px;
+        line-height: 18px;
+    }
+
+    .forPosition a {
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+
+    .linkFooter a {
+        font-size: 16px;
+    }
+
+    footer article p {
+        font-size: 14px;
+    }
+
+    .navbar-expand-lg{
+        background-color: #FFF;
+    }
     
+    .navbar-nav {
+        gap: 20px;
+    }
+
+    .footerBox {
+        flex-direction: column;
+    }
 }
 
-@media only screen and (max-width:500px) {
-   
+@media only screen and (max-width:600px) {
+    .contactForm {
+        padding: 48px 20px;
+        margin-bottom: 50px;
+    }
+
+    .contactForm label {
+        font-size: 14px;
+    }
+
+    .contactForm input:placeholder {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .contactForm textarea {
+        font-size: 12px;
+    }
 }
 
-@media only screen and (max-width:425px) {
-
-}
+@media only screen and (max-width:425px) {}
 
 
-@media only screen and (max-width:320px) {
-    
-}
+@media only screen and (max-width:320px) {}
