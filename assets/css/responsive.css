@@ -48,6 +48,10 @@
     .footerBox {
         flex-direction: column;
     }
+
+    .chatList {
+        width: 490px;
+    }
 }
 
 @media only screen and (max-width:600px) {
@@ -68,9 +72,38 @@
     .contactForm textarea {
         font-size: 12px;
     }
+
+    .authorChatBox{
+        flex-direction: column;
+    }
+
+    .chatList {
+        width: 350px;
+    }
+
+    .notificationBox {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .notification p {
+        font-size: 18px;
+    }
+
+    .notification .noteTime {
+        font-size: 10px;
+    }
+
+    .notification article p {
+        font-size: 12px;
+    }
 }
 
 @media only screen and (max-width:425px) {}
 
 
-@media only screen and (max-width:320px) {}
+@media only screen and (max-width:320px) {
+.chatList {
+    width: 300px;
+}
+}

@@ -62,6 +62,10 @@ button {
     margin-bottom: 25px;
 }
 
+.mb-100 {
+    margin-bottom: 100px;
+}
+
 h2 {
     color: var(--black, #313131);
     font-size: 28px;
@@ -298,9 +302,9 @@ footer {
     transition: .3s ease-in-out;
 }
 
-.profileName a:hover{
+.profileName a:hover {
     opacity: .9;
-} 
+}
 
 .accSettings a {
     color: var(--black, #313131);
@@ -313,10 +317,10 @@ footer {
     padding: 8px;
 }
 
-.accSettings a:hover{
+.accSettings a:hover {
     opacity: .9;
     background: #E1E4E8;
-} 
+}
 
 
 /* Header End */
@@ -523,7 +527,7 @@ h1 {
 .authorChatBox {
     padding: 25px;
     border-radius: 20px;
-    background: #fff3e0;
+    background: #fffbf5;
 }
 
 .readerBox {
@@ -651,7 +655,157 @@ h1 {
 
 .sendForm button {
     background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.sendForm button:hover {
+    opacity: .8;
+}
+
+/* Chat with Author Page End */
+
+
+/* Notification Page Start */
+
+.outterBox {
+    border-radius: 20px;
+    background: #fffbf5;
+    padding: 40px 47px;
+    margin-bottom: 100px;
+}
+
+.notificationBox {
+    padding: 17px 30px;
+    border-radius: 10px;
+    background: var(--white, #FFF);
+    box-shadow: 2px 6px 14px 0px rgba(0, 0, 0, 0.10);
+    margin-bottom: 20px;
+
+}
+
+.notification span {
+    margin-bottom: 20px;
+    color: var(--black, #313131);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.notification p {
+    color: var(--black, #313131);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.notification img {
+    border-radius: 50%;
+}
+
+.notification .noteTime {
+    color: var(--black, #313131);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-bottom: 12px;
+}
+
+.notification article p {
+    color: var(--black, #313131);
+    font-size: 16px;
+    font-weight: 500
+}
+
+.recent {
+    margin-top: 10px;
+}
+
+/* Notification Page End */
+
+/* Preview Book Page Start */
+
+.bookName {
+    color: var(--black, #313131);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
 }
 
 
-/* Chat with Author Page End */
+
+.bookIndex {
+    border-radius: 20px;
+    background: #fffbf5;
+    box-shadow: 7px -3px 14px 0px rgba(0, 0, 0, 0.15);
+    padding: 66px;
+    gap: 35px;
+}
+
+.detalisPage {
+    border-radius: 10px;
+    background: #D9D9D9;
+    height: 1200px;
+}
+
+.bookHeight {
+    height: 1200px;
+    margin-bottom: 35px;
+}
+
+.bookScroll {
+    overflow-y: scroll;
+    height: 1200px;
+    padding: 15px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    border-radius: 50px;
+    background: var(--gray-200, #E1E4E8);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: var(--primary-color, #423C6A);
+    height: 78px;
+}
+
+.b-pagination-outer {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: end !important;
+}
+
+#border-pagination {
+    text-align: center
+}
+
+#border-pagination li {
+    display: inline;
+
+}
+
+#border-pagination li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    float: left;
+
+}
+
+#border-pagination li a {
+    -webkit-transition: background-color 0.4s;
+    transition: background-color 0.4s
+}
+
+#border-pagination li a.active {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+#border-pagination li a:hover:not(.active) {
+    background: #ddd;
+}
+
+/* Preview Book Page End */
