@@ -8,6 +8,11 @@
 
 
 @media only screen and (max-width:768px) {
+    .profileShow .child {
+        top: 61px;
+        left: 0;
+    }
+
     .sub_header {
         font-size: 18px;
     }

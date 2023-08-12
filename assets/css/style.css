@@ -38,7 +38,7 @@ input {
     border: none;
 }
 
-button{
+button {
     outline: none;
     border-width: nopne;
     border-style: none;
@@ -235,10 +235,89 @@ footer {
     background: #423C6A;
 }
 
+.profileShow {
+    position: relative;
+}
+
 
 .profileShow img {
     border-radius: 50%;
+
 }
+
+.profileShow .child {
+    position: absolute;
+    top: 61px;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    background: var(--white, #FFF);
+    padding: 31px 20px;
+    width: 364px;
+    border: 1px solid #C2C9D1;
+}
+
+.profileShow:hover .child {
+    visibility: visible;
+    opacity: 1;
+}
+
+.profileShow .arrow {
+    transition: 0.3s ease-in;
+}
+
+.profileShow:hover .arrow {
+    transform: rotate(180deg);
+}
+
+.profileName p {
+    color: var(--black, #313131);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.profileName span {
+    color: var(--black, #313131);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.profileName a {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+    border-radius: 60px;
+    background: var(--primary-color, #423C6A);
+    padding: 8px 14px;
+    transition: .3s ease-in-out;
+}
+
+.profileName a:hover{
+    opacity: .9;
+} 
+
+.accSettings a {
+    color: var(--black, #313131);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+    padding: 8px;
+}
+
+.accSettings a:hover{
+    opacity: .9;
+    background: #E1E4E8;
+} 
+
 
 /* Header End */
 
@@ -514,7 +593,7 @@ h1 {
     font-size: 8px;
 }
 
-.answerBox .time{
+.answerBox .time {
     color: #E1E4E8;
     font-size: 8px;
 }
@@ -567,10 +646,10 @@ h1 {
     color: var(--black, #313131);
     font-size: 14px;
     font-weight: 400;
-    
+
 }
 
-.sendForm button{
+.sendForm button {
     background-color: transparent;
 }
 
