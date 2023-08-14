@@ -8,6 +8,7 @@
 
 
 @media only screen and (max-width:768px) {
+   
     .profileShow .child {
         top: 61px;
         left: 0;
@@ -18,7 +19,11 @@
     }
     h2 {
         font-size: 20px;
-        line-height: 18px;
+        line-height: 30px;
+    }
+
+    h2 span {
+        margin-left: unset;
     }
 
     .forPosition a {
@@ -101,6 +106,32 @@
         line-height: 35px;
     }
     /* ebook Preview End */
+
+    /* Bookmark Page Start */
+
+    .mb_100 {
+        margin-bottom: 50px;
+    }
+
+    .bookMark{
+        flex-wrap: wrap !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .bookmarkInner span {
+        font-size: 18px;
+    }
+
+    .bookmarkInner article span {
+        font-size: 18px;
+    }
+
+    .bookmarkInner article p {
+        font-size: 14px;
+    }
+
+    /* Bookmark Page End */
 }
 
 @media only screen and (max-width:600px) {
