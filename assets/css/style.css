@@ -881,19 +881,13 @@ h1 {
 
 /* FAQ Page Start */
 
-/* .accordion {
-    color: var(--black, #313131);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-} */
 
 .accordion-body {
     padding: 13px 20px;
     color: var(--black, #313131);
     font-size: 16px;
     font-weight: 400;
-    line-height: 21px;
+    line-height: 20px;
 }
 
 .accordion-button {
@@ -925,7 +919,7 @@ h1 {
     border-radius: 10px;
 }
 
-.accordion-button:not(.collapsed){
+.accordion-button:not(.collapsed) {
     border-radius: unset;
 }
 
@@ -974,3 +968,32 @@ h1 {
 
 
 /* FAQ Page End */
+
+
+/* Account Settings Page Start */
+
+.account h3 {
+    color: var(--black, #313131);
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.account p {
+    color: var(--black, #313131);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+}
+
+.account p span {
+    color: #FFB230;
+}
+
+.account span {
+    color: var(--gray-400, #92979D);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Account Settings Page End */
