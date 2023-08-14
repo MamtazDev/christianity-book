@@ -8,7 +8,7 @@
 
 
 @media only screen and (max-width:768px) {
-   
+
     .profileShow .child {
         top: 61px;
         left: 0;
@@ -17,13 +17,14 @@
     .sub_header {
         font-size: 18px;
     }
+
     h2 {
         font-size: 20px;
         line-height: 30px;
     }
 
     h2 span {
-        margin-left: unset;
+        /* margin-left: unset; */
     }
 
     .forPosition a {
@@ -42,10 +43,10 @@
         font-size: 14px;
     }
 
-    .navbar-expand-lg{
+    .navbar-expand-lg {
         background-color: #FFF;
     }
-    
+
     .navbar-nav {
         gap: 20px;
     }
@@ -72,9 +73,9 @@
         height: unset;
     }
 
-    .ebookMt{
+    .ebookMt {
         margin-top: 0;
-    }    
+    }
 
     .mb-100 {
         margin-bottom: 50px;
@@ -90,14 +91,14 @@
 
     .border-pagination li a {
         font-size: 8px;
-        padding: 5px ;
+        padding: 5px;
     }
 
-    .showPage a{
-        font-size: 8px;    
+    .showPage a {
+        font-size: 8px;
     }
 
-    .mb-ebook{
+    .mb-ebook {
         margin-bottom: 0;
     }
 
@@ -105,6 +106,7 @@
         font-size: 30px;
         line-height: 35px;
     }
+
     /* ebook Preview End */
 
     /* Bookmark Page Start */
@@ -113,7 +115,7 @@
         margin-bottom: 50px;
     }
 
-    .bookMark{
+    .bookMark {
         flex-wrap: wrap !important;
         padding-left: 10px !important;
         padding-right: 10px !important;
@@ -153,7 +155,7 @@
         font-size: 12px;
     }
 
-    .authorChatBox{
+    .authorChatBox {
         flex-direction: column;
     }
 
@@ -191,7 +193,7 @@
 
 
 @media only screen and (max-width:320px) {
-.chatList {
-    width: 300px;
-}
+    .chatList {
+        width: 300px;
+    }
 }
