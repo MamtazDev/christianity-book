@@ -52,6 +52,55 @@
     .chatList {
         width: 490px;
     }
+
+
+    /* ebook Preview Start */
+    .bookHeight {
+        height: unset;
+    }
+
+    .bookScroll {
+        height: 600px;
+    }
+
+    .detalisPage {
+        height: unset;
+    }
+
+    .ebookMt{
+        margin-top: 0;
+    }    
+
+    .mb-100 {
+        margin-bottom: 50px;
+    }
+
+    .b-pagination-outer {
+        padding: 5px;
+    }
+
+    .border-pagination {
+        gap: 0;
+    }
+
+    .border-pagination li a {
+        font-size: 8px;
+        padding: 5px ;
+    }
+
+    .showPage a{
+        font-size: 8px;    
+    }
+
+    .mb-ebook{
+        margin-bottom: 0;
+    }
+
+    .bookName {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    /* ebook Preview End */
 }
 
 @media only screen and (max-width:600px) {
