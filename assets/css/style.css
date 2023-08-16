@@ -63,7 +63,7 @@ button {
 }
 
 .mb_40 {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .mb_100 {
@@ -915,8 +915,8 @@ h1 {
 }
 
 .accordion-item {
-    margin: 18px !important;
-    border-radius: 10px;
+    margin-bottom: 18px !important;
+    /* border-radius: 10px; */
 }
 
 .accordion-button:not(.collapsed) {
@@ -976,7 +976,7 @@ h1 {
     color: var(--black, #313131);
     font-size: 26px;
     font-weight: 700;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 .account p {
@@ -990,10 +990,231 @@ h1 {
     color: #FFB230;
 }
 
-.account span {
+.changeEmail {
+    margin-bottom: 28px;
+}
+
+.changeEmail label,
+.changePassword label {
     color: var(--gray-400, #92979D);
     font-size: 16px;
     font-weight: 600;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.inputContainer {
+    width: 100%;
+    max-width: 356px !important;
+    display: block;
+}
+
+.changeEmail input,
+.changePassword input,
+.profileSetting input,
+.profileSetting select {
+    border-bottom: 2px solid #423C6A;
+    padding-bottom: 5px;
+    color: var(--primary-color, #423C6A);
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    max-width: 356px !important;
+    display: block;
+}
+
+.changePassword input,
+.profileSetting input,
+.profileSetting select {
+    border-bottom: 2px solid #C2C9D1;
+}
+
+.changeEmail input::placeholder,
+.changePassword input::placeholder,
+.profileSetting input::placeholder {
+    color: var(--primary-color, #423C6A);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.changeEmail button {
+    color: var(--primary-color, #423C6A);
+    font-size: 22px;
+    font-weight: 600;
+    outline: none;
+    border-bottom: 2px solid #423C6A;
+    background: transparent;
+    transition: 0.3s ease-in-out;
+    white-space: nowrap;
+}
+
+.changeEmail button:hover {
+    opacity: .9;
+    border-bottom: 2px solid transparent;
+}
+
+.changePassword button,
+.profileSetting button {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 143px;
+    border-radius: 32px;
+    background: var(--primary-color, #423C6A);
+    box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.4s ease-in-out;
+    white-space: nowrap;
+}
+
+.changePassword button:hover,
+.profileSetting button:hover {
+    opacity: .9;
+}
+
+select {
+    border: none;
+}
+
+
+.profileSetting select {
+    background-image: url("../images/drop_down.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.subOutter{
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* padding: 50px; */
+}
+
+.subOutter::-webkit-scrollbar{
+    display: none !important;
+}
+
+.subscriptionBox {
+    border-radius: 10px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+    padding: 22px 24px;
+    width: 1200px;
+    margin: auto;
+}
+
+.graySubLine {
+    height: 1px;
+    background: #C2C9D1;
+    width: 100%;
+}
+
+.subscriptionBox span {
+    color: var(--black, #313131);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.subscriptionBox h5 {
+    color: var(--black, #313131);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.payment {
+    font-weight: 500;
+    color: var(--black, #313131) !important;
+}
+
+.graybtn {
+    padding: 16px 24px;
+    border-radius: 32px;
+    background: var(--gray-400, #92979D);
+    box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.4s ease-in-out;
+    white-space: nowrap;
+}
+
+.graybtn:hover {
+    opacity: .9;
+}
+
+.othersSub {
+    padding: 16px 24px;
+    border-radius: 32px;
+    border: 1px solid var(--secondry-color, #FFB230);
+    color: var(--secondry-color, #FFB230);
+    font-size: 20px;
+    font-weight: 700;
+    background: transparent;
+    transition: 0.4s ease-in-out;
+    white-space: nowrap;
+}
+
+.othersSub:hover {
+    background-color: var(--secondry-color, #FFB230);
+    color: #FFF;
+}
+
+.cancelSubBtn {
+    padding: 16px 24px;
+    border-radius: 32px;
+    border: 1px solid var(--alert-red, #E00000);
+    color: var(--alert-red, #E00000);
+    font-size: 20px;
+    font-weight: 700;
+    background: transparent;
+    transition: 0.4s ease-in-out;
+    white-space: nowrap;
+}
+
+.cancelSubBtn:hover {
+    background-color: var(--alert-red, #E00000);
+    color: #FFF;
+}
+
+.notificationSetting input {
+    accent-color: #423c64;
+}
+
+.notificationSetting input.checkBox {
+    width: 15px !important;
+    height: 15px;
+}
+
+.deactiveBtn {
+    padding: 16px 64px;
+    border-radius: 32px;
+    background: var(--alert-red, #E00000);
+    box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.4s ease-in-out;
+    white-space: nowrap;
+}
+
+.deactiveBtn:hover {
+    opacity: .8;
+}
+
+
+.activity h3 {
+    color: var(--black, #313131);
+    font-size: 26px;
+    font-weight: 700;
 }
 
 /* Account Settings Page End */

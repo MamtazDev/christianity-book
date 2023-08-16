@@ -32,11 +32,13 @@
                         </li>
                     </ul>
                     <div class="d-flex align-items-center gap-3">
-                        <a href="#"><img src="./assets/images/chat_icon.png" alt="Chats"></a>
-                        <a href="#"><img src="./assets/images/notification_icon.png" alt="Notifications"></a>
+                        <a href="author_chat.html"><img src="./assets/images/chat_icon.png" alt="Chats"></a>
+                        <a href="notifications.html"><img src="./assets/images/notification_icon.png"
+                                alt="Notifications"></a>
                         <div class="profileShow d-flex align-items-center gap-1">
-                            <a href="#"><img src="./assets/images/profile_round.png" alt="Profile Image"></a>
-                            <img class="arrow" src="./assets/images/drop_down.png" alt="">
+                            <a href="accountSettings.html"><img src="./assets/images/profile_round.png"
+                                    alt="Profile Image"></a>
+                            <img class="arrow" src="./assets/images/drop_down.png" alt="Settings">
 
                             <div class="child">
                                 <div class="profileName d-flex align-items-center gap-3">
@@ -44,29 +46,29 @@
                                     <div>
                                         <p>John Duo</p>
                                         <span class="d-block mb-2">johnduo@gmail.com</span>
-                                        <a href="#">Edit profile</a>
+                                        <a href="accountSettings.html">Edit profile</a>
                                     </div>
                                 </div>
                                 <hr>
                                 <div class="accSettings d-flex align-items-center gap-3 mb-3">
-                                    <img src="./assets/images/accountSetting.png" alt="">
-                                    <a href="#">Account Settings</a>
+                                    <img src="./assets/images/accountSetting.png" alt="Settings">
+                                    <a href="accountSettings.html">Account Settings</a>
                                 </div>
                                 <div class="accSettings d-flex align-items-center gap-3 mb-3">
-                                    <img src="./assets/images/bookmark.png" alt="">
-                                    <a href="#">Bookmarks</a>
+                                    <img src="./assets/images/bookmark.png" alt="Bookmarks">
+                                    <a href="bookMark.html">Bookmarks</a>
                                 </div>
                                 <div class="accSettings d-flex align-items-center gap-3 mb-3">
-                                    <img src="./assets/images/highlight.png" alt="">
-                                    <a href="#">Highlights</a>
+                                    <img src="./assets/images/highlight.png" alt="highlights">
+                                    <a href="highlight.html">Highlights</a>
                                 </div>
                                 <div class="accSettings d-flex align-items-center gap-3 mb-3">
-                                    <img src="./assets/images/notes.png" alt="">
-                                    <a href="#">My Notes</a>
+                                    <img src="./assets/images/notes.png" alt="Notes">
+                                    <a href="myNotes.html">My Notes</a>
                                 </div>
                                 <div class="accSettings d-flex align-items-center gap-3 mb-3">
-                                    <img src="./assets/images/faq.png" alt="">
-                                    <a href="#">FAQ’s</a>
+                                    <img src="./assets/images/faq.png" alt="FAQ">
+                                    <a href="faq.html">FAQ’s</a>
                                 </div>
                                 <hr>
                                 <div class="accSettings d-flex align-items-center gap-3">
@@ -90,27 +92,180 @@
                     <img src="./assets/images/next_arrow.png" alt="Arrow">
                     <a href="" class="activePage">Account Settings</a>
                 </div>
-                <div class="account ">
+
+                <div class="account">
                     <div class="mb_40">
                         <h3>Account Settings</h3>
                         <p>
-                            Here you can Change the Email Address you use on <span>Christianity Book</span> and your password.
+                            Here you can Change the Email Address you use on <span>Christianity Book</span> and your
+                            password.
                         </p>
                     </div>
-                    <span>Change Email</span>
+
+                    <!-- Email Settings Start -->
+                    <form action="" class="changeEmail">
+                        <div class="d-flex justify-content-start align-items-end gap-4 ">
+                            <div class="inputContainer">
+                                <label>Change Email</label>
+                                <input type="email" placeholder="Enter Email">
+                            </div>
+                            <button>Change Email</button>
+                        </div>
+                    </form>
+                    <!-- Email Settings End -->
+
+                    <!-- Password Settings Start -->
+                    <form action="" class="changePassword mb_40">
+                        <div class="d-flex flex-wrap justify-content-start align-items-end gap-4 mb-5">
+                            <div class="inputContainer">
+                                <label>Change Password</label>
+                                <input type="password" placeholder="Enter Old Password">
+                            </div>
+                            <div class="inputContainer">
+                                <label>New Password</label>
+                                <input type="password" placeholder="Enter New Password">
+                            </div>
+                            <div class="inputContainer">
+                                <label>New Password</label>
+                                <input type="password" placeholder="Confirm New Password">
+                            </div>
+                        </div>
+                        <button>Update</button>
+                    </form>
+                    <!-- Password Settings End -->
+
+
+                    <!-- Profile Settings Start -->
+                    <div class="mb_40">
+                        <h3>Profile Settings</h3>
+                        <p>
+                            Here you can Change your profile data you use on <span>Christianity Book</span>.
+                        </p>
+                    </div>
+                    <form action="" class="profileSetting mb_40">
+                        <div class="d-flex justify-content-start align-items-end gap-4 mb-5">
+                            <div class="inputContainer">
+                                <label>Full Name</label>
+                                <input type="text" placeholder="John Duo">
+                            </div>
+                            <div class="inputContainer">
+                                <label>Email Address</label>
+                                <input type="email" placeholder="johnduo@gmail.com">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-end gap-4 mb-5">
+                            <div class="inputContainer">
+                                <label>Phone Number</label>
+                                <input type="text" placeholder="+1 123 456 789">
+                            </div>
+                            <div class="inputContainer">
+                                <label>Country</label>
+                                <select class="" name="" id="">
+                                    <option selected>Country</option>
+                                    <option value="1">Bangladesh</option>
+                                    <option value="2">Nepal</option>
+                                    <option value="3">India</option>
+                                    <option value="4">Canada</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button>Save Changings</button>
+                    </form>
+                    <!-- Profile Settings End -->
+
+                    <!-- Subscription Settings Start -->
+                    <div class="mb_30 mt-2">
+                        <h3>My Subscription</h3>
+                    </div>
+                    <div class="subOutter mb_40 ">
+                        <div class="subscriptionBox ">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span>Plan</span>
+                                    <h5>My Subscription</h5>
+                                </div>
+                                <div>
+                                    <span>Payment</span>
+                                    <h5>$9.99 <span class="payment">per month</span></h5>
+                                </div>
+                                <div class="d-flex align-items-center gap-2">
+                                    <button class="graybtn">Cancel Subscription</button>
+                                    <button class="othersSub">Subscribe for Others</button>
+                                </div>
+                            </div>
+                            <div class="graySubLine  mt-3 mb-3"></div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center gap-3">
+                                    <img src="./assets/images/subcriptionPP_1.png" alt="">
+                                    <p style="font-weight: 600;">John Duo</p>
+                                </div>
+                                <div>
+                                    <span class="text-center">Subscription For Others <span style="font-size: 20px;"> (02
+                                            persons)</span></span>
+                                    <p class="text-center">johnduo@gmail.com</p>
+                                </div>
+                                <div>
+                                    <button class="cancelSubBtn">Cancel Subscription</button>
+                                </div>
+                            </div>
+                            <div class="graySubLine mt-3 mb-3"></div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center gap-3">
+                                    <img src="./assets/images/subcriptionPP_2.png" alt="">
+                                    <p style="font-weight: 600;">Siara James</p>
+                                </div>
+                                <div>
+                                    <p class="text-center">johnduo@gmail.com</p>
+                                </div>
+                                <div>
+                                    <button class="cancelSubBtn">Cancel Subscription</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Subscription Settings End -->
+
+                    <!-- Notification Seetings Start -->
+                    <div class="mb_30">
+                        <h3>Notification Settings</h3>
+                        <p><span>Christianity Book</span> will send you notifications</p>
+                    </div>
+                    <div class="notificationSetting mb_40">
+                        <form action="">
+                            <div class="mb-3">
+                                <input type="checkbox" class="checkBox" name="weeklyMail" value="yes" checked>
+                                <label for="">Receive weekly mails</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="announcement" class="checkBox" value="yes" checked>
+                                <label for="">Receive new Product Announcements</label>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- Notification Seetings End -->
+
+                    <div class="mb_30">
+                        <h3>Deactivate Account</h3>
+                        <p>If you no longer want to receive notifications then Deactivate your Account.</p>
+                    </div>
                     <form action="">
-                        
+                        <button class="deactiveBtn">Deactivate my Account!</button>
                     </form>
                 </div>
-
+            </div>
+            <div class="mb_100">
+                <div class="activity">
+                    <h3>Your Activity</h3>
+                    <img class="img-fluid" src="./assets/images/graph.png" alt="">
+                </div>
             </div>
         </div>
     </main>
 
     <footer>
         <div class="container">
-            <div class="d-flex justify-content-between footerBox gap-2">
-                <div>
+            <div class="d-flex justify-content-between footerBox">
+                <div style="max-width: 110px;">
                     <p>Your Logo</p>
                 </div>
                 <div style="max-width: 700px;">
@@ -127,13 +282,16 @@
                         <a href="#"><img src="./assets/images/twitter.png" alt="FaceBook"></a>
                         <a href="#"><img src="./assets/images/youtube.png" alt="FaceBook"></a>
                     </div>
-                    <div class="lineBox mb-3"></div>
-                    <article>
-                        <p class="d-block">© 2023 Christianity Book. All Rights Reserved</p>
-                    </article>
+
                 </div>
-                <div></div>
+                <div style="max-width: 110px;">
+                    <!-- <p>Your Logo</p> -->
+                </div>
             </div>
+            <div class="lineBox mb-4"></div>
+            <article>
+                <p class="d-block">© 2023 Christianity Book. All Rights Reserved</p>
+            </article>
         </div>
     </footer>
 

@@ -53,6 +53,8 @@
 
     .footerBox {
         flex-direction: column;
+        align-items: center;
+        gap: 10px;
     }
 
     .chatList {
@@ -179,6 +181,12 @@
     .notification article p {
         font-size: 12px;
     }
+
+    /* Setting Page Start */
+    .subOutter{
+        padding: 10px;
+    }
+    /* Setting Page End */
 }
 
 @media only screen and (max-width:425px) {
