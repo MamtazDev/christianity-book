@@ -24,9 +24,6 @@
         line-height: 30px;
     }
 
-    h2 span {
-        /* margin-left: unset; */
-    }
 
     .forPosition a {
         font-size: 16px;
@@ -137,6 +134,20 @@
     }
 
     /* Bookmark Page End */
+
+
+    .deactiveAccModalOne form{
+        flex-direction: column;
+    }
+
+    .deactiveAccModalOne h6 {
+        font-size: 25px;
+    }
+
+    .cancelAccBtn, .confirmBtn  {
+        padding: 12px 95px;
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width:600px) {

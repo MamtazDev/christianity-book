@@ -200,7 +200,8 @@
                                     <p style="font-weight: 600;">John Duo</p>
                                 </div>
                                 <div>
-                                    <span class="text-center">Subscription For Others <span style="font-size: 20px;"> (02
+                                    <span class="text-center">Subscription For Others <span style="font-size: 20px;">
+                                            (02
                                             persons)</span></span>
                                     <p class="text-center">johnduo@gmail.com</p>
                                 </div>
@@ -249,8 +250,94 @@
                         <p>If you no longer want to receive notifications then Deactivate your Account.</p>
                     </div>
                     <form action="">
-                        <button class="deactiveBtn">Deactivate my Account!</button>
+                        <a class="deactiveBtn" class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle"
+                            role="button">Open
+                            first modal</a>
+                        <!-- <button class="deactiveBtn" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Deactivate my Account!</button> -->
                     </form>
+
+                    <!-- Modal Start -->
+
+                    <!-- <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                        aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body deactiveAccModalOne text-center">
+                                    <img src="./assets/images/deactive_account.png" alt="Deactivate Account">
+                                    <h6 class="mt-4 mb-3">Deactivate Account!</h6>
+                                    <p class="mb-5">Are you sure you want to <span>Deactivate</span> your Account?</p>
+                                    <form action="" class="d-flex justify-content-center align-items-center gap-3 mb-5">
+                                        <button class="cancelAccBtn">Cancel</button>
+                                        <button class="confirmBtn" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Confirm</button>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                        aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Hide this modal and show the first with the button below.
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
+                                        data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body deactiveAccModalOne text-center">
+                                <img src="./assets/images/deactive_account.png" alt="Deactivate Account">
+                                <h6 class="mt-4 mb-3">Deactivate Account!</h6>
+                                <p class="mb-5">Are you sure you want to <span>Deactivate</span> your Account?</p>
+                                <div class="d-flex justify-content-center align-items-center gap-3 mb-5">
+                                    <button class="cancelAccBtn">Cancel</button>
+                                    <button class="confirmBtn" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Confirm</button>
+                                </div>
+                            </div>
+                            <!-- <div class="modal-footer">
+                              <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+                            </div> -->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Hide this modal and show the first with the button below.
+                            </div>
+                            <div class="modal-footer">
+                              <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a> -->
+                    <!-- Modal End -->
                 </div>
             </div>
             <div class="mb_100">
@@ -273,8 +360,8 @@
                         Do You Seek Answers? Reach Out to Me for a Question, at an Affordable Rate of $20.
                     </p>
                     <div class="linkFooter d-flex justify-content-center align-items-center mb-4 gap-5">
-                        <a href="#">Home</a>
-                        <a href="#">Contact Me</a>
+                        <a href="index.html">Home</a>
+                        <a href="contact.html">Contact Me</a>
                         <a href="#">Cart</a>
                     </div>
                     <div class="socialLink d-flex justify-content-center align-items-center mb-4">
