@@ -995,12 +995,19 @@ h1 {
 }
 
 .changeEmail label,
-.changePassword label {
+.changePassword label,
+.profileSetting label {
     color: var(--gray-400, #92979D);
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 15px;
     display: block;
+}
+
+.notificationSetting label {
+    color: var(--gray-400, #92979D);
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .inputContainer {
@@ -1089,7 +1096,7 @@ select::-ms-expand {
     display: none;
 }
 
-.subOutter{
+.subOutter {
     overflow-x: scroll;
     white-space: nowrap;
     padding-top: 30px;
@@ -1097,7 +1104,7 @@ select::-ms-expand {
     /* padding: 50px; */
 }
 
-.subOutter::-webkit-scrollbar{
+.subOutter::-webkit-scrollbar {
     display: none !important;
 }
 

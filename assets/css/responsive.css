@@ -9,6 +9,7 @@
 
 @media only screen and (max-width:768px) {
 
+
     .profileShow .child {
         top: 61px;
         left: 0;
@@ -183,9 +184,64 @@
     }
 
     /* Setting Page Start */
-    .subOutter{
+    .account h3, .activity h3 {
+        font-size: 20px;
+    }
+
+    .account p {
+        font-size: 16px;
+    }
+
+    .changeEmail button {
+        font-size: 16px;
+    }
+
+    .changeEmail label,
+    .changePassword label, .profileSetting label, .notificationSetting label {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .changeEmail input,
+    .changePassword input,
+    .profileSetting input,
+    .profileSetting select {
+        font-size: 12px;
+    }
+
+    .changeEmail input::placeholder,
+    .changePassword input::placeholder,
+    .profileSetting input::placeholder {
+        font-size: 12px;
+    }
+
+    .changePassword button, .profileSetting button {
+        font-size: 16px;
+        padding: 12px 90px;
+    }
+
+    .subOutter {
         padding: 10px;
     }
+
+    .deactiveBtn {
+        font-size: 16px;
+        padding: 12px 40px;
+    }
+
+    .subscriptionBox span {
+        font-size: 16px;
+    }
+
+    .subscriptionBox h5 {
+        font-size: 22px;
+    }
+
+    .graybtn, .othersSub, .cancelSubBtn {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
     /* Setting Page End */
 }
 
