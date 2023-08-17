@@ -107,6 +107,7 @@ h2 span {
     color: var(--primary-color, #423C6A);
     font-size: 24px;
     font-weight: 500;
+    max-width: 618px;
 }
 
 .forPosition a {
@@ -120,13 +121,20 @@ h2 span {
     color: #423C6A;
 }
 
-footer {
+footer,
+.latestVideo {
     background: #fff3e0;
 }
 
 :focus-visible {
     outline: none;
 }
+
+.forPosition {
+    position: relative;
+    padding-top: 120px;
+}
+
 
 /* Common css End */
 
@@ -462,6 +470,8 @@ h1 {
     color: var(--primary-color, #423C6A);
     font-size: 24px;
     font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .achiveBox p {
@@ -473,14 +483,102 @@ h1 {
 
 
 /* Achive Section End */
+.clientGuide {
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 65px 0;
+}
+
+.clientGuide h3 {
+    color: var(--white, #FFF);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.clientGuide a {
+    padding: 13px 53px;
+    border-radius: 50px;
+    background: var(--secondry-color, #FFB230);
+    color: var(--white, #FFF);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    transition: 0.3s ease-in-out;
+}
+
+.clientGuide a:hover {
+    opacity: .8;
+}
+
+
+.aboutMeInner {
+    padding: 42px 28px;
+}
+
+.aboutMeInner span {
+    color: var(--primary-color, #423C6A);
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.aboutMeInner p {
+    color: var(--black, #313131);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.videoBox,
+.videoBox iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.latestVideoInner article {
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+
+.disorder {
+    display: block;
+    color: var(--black, #313131);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.latestVideoInner p {
+    color: var(--black, #313131);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.pointBoxShadow {
+    border-radius: 10px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.15);
+    padding: 23px 18px;
+}
+
+.pointsCover row{
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
 /* Index Page End */
 
 /* Contact Page Start */
-.forPosition {
-    position: relative;
-    padding-top: 120px;
-}
 
 .contactForm {
     border-radius: 10px;
