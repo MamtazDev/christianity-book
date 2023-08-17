@@ -136,7 +136,7 @@
     /* Bookmark Page End */
 
 
-    .deactiveAccModalOne form{
+    .modalBtn{
         flex-direction: column;
     }
 
@@ -145,7 +145,7 @@
     }
 
     .cancelAccBtn, .confirmBtn  {
-        padding: 12px 95px;
+        padding: 12px 80px;
         font-size: 18px;
     }
 }
