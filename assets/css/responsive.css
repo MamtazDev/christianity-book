@@ -15,6 +15,10 @@
         left: 0;
     }
 
+    .accSettings a {
+        font-size: 14px;
+    }
+
     .sub_header {
         font-size: 18px;
     }
@@ -87,7 +91,36 @@
         font-size: 16px;
     }
 
+    .pointsCover .row>*{
+        margin-top: 10px;
+    }
 
+    
+    .pointsCover span, .pointsCover h6 {
+        font-size: 18px;
+    }
+
+    .pointsCover p {
+        font-size: 16px;
+    }
+
+    .authorName span {
+        font-size: 25px;
+        padding: 16px 50px;
+        text-align: center;
+    }
+    .aboutAuthor p {
+        font-size: 18px;
+    }
+
+    .aboutAuthor .col-lg-5 {
+        padding-right: unset;
+    }
+
+    .authorInner{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
     /* ebook Preview Start */
     .bookHeight {
